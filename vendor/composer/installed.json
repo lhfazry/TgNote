@@ -1,0 +1,102 @@
+[
+    {
+        "name": "joshcam/mysqli-database-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joshcam/PHP-MySQLi-Database-Class.git",
+            "reference": "ee17b700031af32d49de5690d6284e4b6b0f08c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joshcam/PHP-MySQLi-Database-Class/zipball/ee17b700031af32d49de5690d6284e4b6b0f08c5",
+            "reference": "ee17b700031af32d49de5690d6284e4b6b0f08c5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-12-27 14:52:03",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "MysqliDb.php",
+                "dbObject.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Josh Campbell",
+                "email": "josh.lee.campbell@gmail.com",
+                "homepage": "https://github.com/joshcam",
+                "role": "Developer"
+            },
+            {
+                "name": "Alexander V. Butenko",
+                "email": "a.butenka@gmail.com",
+                "homepage": "http://smarttechdo.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements"
+    },
+    {
+        "name": "longman/telegram-bot",
+        "version": "0.26.0",
+        "version_normalized": "0.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/akalongman/php-telegram-bot.git",
+            "reference": "adcc20418100a294221c2586a6eae5232c174911"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/akalongman/php-telegram-bot/zipball/adcc20418100a294221c2586a6eae5232c174911",
+            "reference": "adcc20418100a294221c2586a6eae5232c174911",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-pdo": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpspec/phpspec": "~2.1",
+            "phpunit/phpunit": "~4.1",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2016-01-05 17:12:01",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Longman\\TelegramBot\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Avtandil Kikabidze aka LONGMAN",
+                "email": "akalongman@gmail.com",
+                "homepage": "http://longman.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP telegram bot",
+        "homepage": "https://github.com/akalongman/php-telegram-bot",
+        "keywords": [
+            "api",
+            "bot",
+            "telegram"
+        ]
+    }
+]

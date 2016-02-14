@@ -1,0 +1,14 @@
+{
+    "name": "tgnote/tgnote",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.0",
+        "longman/telegram-bot": "*",
+        "joshcam/mysqli-database-class": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fazrilabs" : "src/"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+2016-01-19 15:17:46 exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Invalid value "lhfazry" for admin!' in /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Telegram.php:569
+Stack trace:
+#0 /usr/share/nginx/html/tgnote.fazrilabs.com/hook.php(35): Longman\TelegramBot\Telegram->enableAdmins(Array)
+#1 {main}
+2016-01-20 19:27:16 exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Operation timed out after 0 milliseconds with 0 out of 0 bytes received' in /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Request.php:162
+Stack trace:
+#0 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Request.php(239): Longman\TelegramBot\Request::executeCurl('sendMessage', Array)
+#1 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Request.php(264): Longman\TelegramBot\Request::send('sendMessage', Array)
+#2 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Commands/SaveCommand.php(57): Longman\TelegramBot\Request::sendMessage(Array)
+#3 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Command.php(53): Longman\TelegramBot\Commands\SaveCommand->execute()
+#4 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Telegram.php(502): Longman\TelegramBot\Command->preExecute()
+#5 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Telegram.php(478): Longman\TelegramBot\Telegram->executeCommand('save', Object(Longman\TelegramBot\Entities\Update))
+#6 /usr/share/nginx/html/tgnote.fazrilabs.com/vendor/longman/telegram-bot/src/Telegram.php(391): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#7 /usr/share/nginx/html/tgnote.fazrilabs.com/hook.php(51): Longman\TelegramBot\Telegram->handle()
+#8 {main}

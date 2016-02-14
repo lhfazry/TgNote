@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "eba29b10551a85dad192c1372efe47dc",
+    "content-hash": "ff99a3046b13bb3a6da424d19d2a8947",
+    "packages": [
+        {
+            "name": "joshcam/mysqli-database-class",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshcam/PHP-MySQLi-Database-Class.git",
+                "reference": "ee17b700031af32d49de5690d6284e4b6b0f08c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joshcam/PHP-MySQLi-Database-Class/zipball/ee17b700031af32d49de5690d6284e4b6b0f08c5",
+                "reference": "ee17b700031af32d49de5690d6284e4b6b0f08c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/joshcam",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "time": "2015-12-27 14:52:03"
+        },
+        {
+            "name": "longman/telegram-bot",
+            "version": "0.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akalongman/php-telegram-bot.git",
+                "reference": "adcc20418100a294221c2586a6eae5232c174911"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akalongman/php-telegram-bot/zipball/adcc20418100a294221c2586a6eae5232c174911",
+                "reference": "adcc20418100a294221c2586a6eae5232c174911",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-pdo": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.1",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Longman\\TelegramBot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Avtandil Kikabidze aka LONGMAN",
+                    "email": "akalongman@gmail.com",
+                    "homepage": "http://longman.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP telegram bot",
+            "homepage": "https://github.com/akalongman/php-telegram-bot",
+            "keywords": [
+                "api",
+                "bot",
+                "telegram"
+            ],
+            "time": "2016-01-05 17:12:01"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "joshcam/mysqli-database-class": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.0"
+    },
+    "platform-dev": []
+}
